@@ -14,6 +14,6 @@ The demo video is included in this repository
 - 🤖 **Cohere** conversational replies (model: `command-a-03-2025`)
 - 🔊 **Text-to-Speech** using **gTTS** (Arabic)
 - ⚡ **FastAPI** backend + plain HTML frontend
-- 🔐 `.env` support (no secrets in code)
+
 
 
