@@ -34,7 +34,7 @@ uvicorn server:app --reload --port 8000
 4) In a new terminal, serve the frontend:
 cd voicebot-app
 python -m http.server 5500
-open http://localhost:5500/index.html
+#open http://localhost:5500/index.html
 
 
 
