@@ -2,14 +2,13 @@
 Voice chatbot in **Arabic**: local **STT** via `faster-whisper`, conversational **LLM** via **Cohere Chat v2**, and **TTS** via `gTTS`.  
 Frontend: a minimal HTML page to record → send → play the reply.
 
-> ✅ No OpenAI key required. You only need **COHERE_API_KEY**.
-
 ---
 
 ## Demo
 
 <!-- Option A: video in repo root -->
-<video src="demo.mp4" controls width="720"></video>
+![Demo video](https://raw.githubusercontent.com/s1ara1h/arabic-voice-chatbo/main/demo.mp4)
+
 
 ---
 
