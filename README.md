@@ -6,8 +6,7 @@ Frontend: a minimal HTML page to record → send → play the reply.
 
 ## Demo
 
-<!-- Option A: video in repo root -->
-![Demo video](https://raw.githubusercontent.com/s1ara1h/arabic-voice-chatbo/main/demo.mp4)
+![Demo video](demo.mp4)
 
 
 ---
