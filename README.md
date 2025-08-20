@@ -17,24 +17,49 @@ The demo video is included in this repository
 
 ---
 
-## How to run
+## 🚀 How to Run
 
-1) Create & activate venv (or conda), then install deps:
+### 1. Setup Environment
+Create and activate virtual environment, then install dependencies:
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# Update pip and install dependencies
 pip install -U pip
 pip install -r voicebot-app/requirements.txt
+```
 
-3) Create .env next to server.py
-
+### 2. Environment Configuration
+Create `.env` file next to `server.py`:
+```env
 COHERE_API_KEY=YOUR_COHERE_API_KEY
+```
 
-3) Run backend:
+### 3. Run Backend Server
+```bash
 cd voicebot-app
 uvicorn server:app --reload --port 8000
+```
 
-4) In a new terminal, serve the frontend:
+### 4. Serve Frontend
+In a new terminal window:
+```bash
 cd voicebot-app
 python -m http.server 5500
-#open http://localhost:5500/index.html
+```
+
+Then open your browser and navigate to: `http://localhost:5500/index.html`
+
+---
+
+**Note:** Make sure both backend (port 8000) and frontend (port 5500) are running simultaneously.
 
 
 
