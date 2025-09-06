@@ -5,7 +5,10 @@ Frontend: a minimal HTML page to record → send → play the reply.
 ---
 
 ## Demo
-The demo video is included in this repository
+
+https://github.com/user-attachments/assets/39adabd2-8bbe-41ba-9550-5f1b33b5fcad
+
+
 
 ---
 
